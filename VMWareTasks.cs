@@ -21,7 +21,7 @@ namespace VMWare_Tests
 
             for (int i = 0; i < nums.Length; i++)
             {
-                if ((nums[i] % 10) == 0 && nums[i] > comparison)
+                if ((nums[i] % 10) == 0)
                     comparison = nums[i];
 
                 else
